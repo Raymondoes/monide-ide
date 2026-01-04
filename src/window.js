@@ -14,10 +14,32 @@ function UIWindow() {
     autoHideMenuBar: true,
     frame: false,
     webPreferences: {
-      preload: path.join(__dirname, "preload.js"),
+      preload: path.join(__dirname, "titlebar.js"),
+      nodeIntegration: true,
+      contextIsolation: false,
     },
   });
   win.loadFile("view/index.html");
 }
+
+let maximizeToggle = false;
+
+ipcMain.on(`btnminimize`, () => {
+  win.minimize();
+});
+
+ipcMain.on(`btnmaximize`, () => {
+  if (maximizeToggle) {
+    win.unmaximize(); // if button is unclicked
+  } else {
+    win.maximize();
+  }
+
+  maximizeToggle = !maximizeToggle; // flip the value, ig
+});
+
+ipcMain.on(`btnclose`, () => {
+  app.quit();
+});
 
 app.whenReady().then(UIWindow);

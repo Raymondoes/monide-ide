@@ -17,6 +17,7 @@
     "electron-builder": "^26.0.12"
   },
   "dependencies": {
+    "cmake-js": "^7.4.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }
