@@ -92,6 +92,11 @@ elseif(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
     target_compile_options(Monide_Backend PRIVATE -Wall -Wextra -Wno-pedantic)
 endif()
 
+if (MINGW)
+    set(CMAKE_SHARED_LINKER_FLAGS "")
+endif()
+
+
 target_compile_features(Monide_Backend PUBLIC cxx_std_20)
 
 # Platform-specific definitions
