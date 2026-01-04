@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cmake-js": "^7.4.0"
+  },
+  "scripts": {
+    "install": "cmake-js compile -G \"MinGW Makefiles\" -DCMAKE_CXX_COMPILER=gcc -DCMAKE_C_COMPILER=gcc .",
+    "build": "cmake -G \"MinGW Makefiles\" -DCMAKE_CXX_COMPILER=gcc -DCMAKE_C_COMPILER=gcc ."
+  }
+}

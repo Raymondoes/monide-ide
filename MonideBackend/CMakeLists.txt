@@ -65,6 +65,13 @@ elseif(MSVC)
     set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} /ignore:4099,4098")
 endif()
 
+
+
+if (MINGW)
+    set(CMAKE_SHARED_LINKER_FLAGS "")
+endif()
+
+
 # Export compile_commands.json
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
