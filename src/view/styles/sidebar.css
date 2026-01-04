@@ -1,0 +1,17 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    background: #3b4252;
+}
+
+body {
+    display: flex;
+}
+
+#sidebar {
+    width: 200px;
+    background: #2e3440;
+    border-right: 1px solid #4c566a;
+    z-index: 0;
+}

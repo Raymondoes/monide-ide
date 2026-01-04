@@ -1,0 +1,23 @@
+{
+  "name": "monideide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron src/window.js",
+    "test": "node src/window.js"
+  },
+  "keywords": [],
+  "author": "Huang Wie Lim",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/electron": "^1.4.38",
+    "electron": "^39.2.7",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
