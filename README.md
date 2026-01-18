@@ -6,13 +6,13 @@
 [![License][license-shield]][license-url]
 
 <!-- LINKS -->
-[contributors-shield]: https://img.shields.io/github/contributors/Raymondoes/Monide.svg?style=for-the-badge
-[contributors-url]: https://github.com/Raymondoes/Monide/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Raymondoes/Monide.svg?style=for-the-badge
-[forks-url]: https://github.com/Raymondoes/Monide/network/members
-[stars-shield]: https://img.shields.io/github/stars/Raymondoes/Monide.svg?style=for-the-badge
-[stars-url]: https://github.com/Raymondoes/Monide/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Raymondoes/Monide.svg?style=for-the-badge
-[issues-url]: https://github.com/Raymondoes/Monide/issues
-[license-shield]: https://img.shields.io/github/license/Raymondoes/Monide.svg?style=for-the-badge
-[license-url]: https://github.com/Raymondoes/Monide/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/Raymondoes/monide-ide.svg?style=for-the-badge
+[contributors-url]: https://github.com/Raymondoes/monide-ide/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Raymondoes/monide-ide.svg?style=for-the-badge
+[forks-url]: https://github.com/Raymondoes/monide-ide/network/members
+[stars-shield]: https://img.shields.io/github/stars/Raymondoes/monide-ide.svg?style=for-the-badge
+[stars-url]: https://github.com/Raymondoes/monide-ide/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Raymondoes/monide-ide.svg?style=for-the-badge
+[issues-url]: https://github.com/Raymondoes/monide-ide/issues
+[license-shield]: https://img.shields.io/github/license/Raymondoes/monide-ide.svg?style=for-the-badge
+[license-url]: https://github.com/Raymondoes/monide-ide/blob/master/LICENSE
