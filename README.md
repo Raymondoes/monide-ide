@@ -15,4 +15,4 @@
 [issues-shield]: https://img.shields.io/github/issues/Raymondoes/monide-ide.svg?style=for-the-badge
 [issues-url]: https://github.com/Raymondoes/monide-ide/issues
 [license-shield]: https://img.shields.io/github/license/Raymondoes/monide-ide.svg?style=for-the-badge
-[license-url]: https://raw.githubusercontent.com/Raymondoes/monide-ide/refs/heads/main/LICENSE
+[license-url]: https://github.com/Raymondoes/monide-ide/main/LICENSE
